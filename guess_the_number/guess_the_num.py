@@ -17,5 +17,6 @@ for guessesTaken in range(1, 7):
     
 if guess == secretNumber:
     print('You got it ' + name + '!')
+    print('It took you ' + str(guessesTaken) + ' tries.')
 else:
     print('Nope - the number I was thinking of was ' + str(secretNumber), ' better luck next time!')
