@@ -34,3 +34,10 @@ print('name' not in eggs)
 #returns False
 
 #variables hold references to dictionary Values
+
+print(list(eggs.keys()))
+#['name', 'species', 'age']
+print(list(eggs.values()))
+#['Winston', 'cat', 12]
+print(list(eggs.items()))
+#[('name', 'Winston'), ('species', 'cat'), ('age', 12)]
