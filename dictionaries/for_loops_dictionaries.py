@@ -42,3 +42,20 @@ for i in eggs.items():
 
 print('cat' in eggs.values())
 #True
+
+#rather than checking with an if statement everytime like this:
+if 'color' in eggs:
+    print(eggs['color'])
+
+#python gives us a get method which takes two values(what is it searching for, and a fallback method), used like this: 
+eggs.get('age', 0)
+#returns 12
+eggs.get('color', '')
+#returns ''
+picnicItems = {
+    'apples': 5,
+    'cups': 2
+}
+print('I am bringing ' + str(picnicItems.get('napkins', 0)) + ' napkins to the picnic')
+#I am bringing 0 napkins to the picnic
+
