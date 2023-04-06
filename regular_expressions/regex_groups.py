@@ -12,3 +12,4 @@ mo = batRegex.search('Batmotorcycle lost a wheel')
 #The | character is called a pipe. You can use it anywhere you want to match one of many expressions.
 #The (Batman|Tina Fey) part of the regular expression is called a group.
 #When a regular expression has groups, the findall() method returns a list of tuples.
+#Each tuple represents a found match, and its items are the matched strings for each group in the regex.
