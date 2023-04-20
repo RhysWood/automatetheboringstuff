@@ -30,3 +30,6 @@ batRegex3 = re.compile(r'Bat(wo)*man')
 mo1 = batRegex3.search('The Adventures of Batwowowowowoman')
 print(mo1.group())
 #Batwowowowowoman
+
+#The + matches one or more. The group that precedes the + must appear at least once.
+#It is not optional.
