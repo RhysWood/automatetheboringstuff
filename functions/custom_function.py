@@ -20,3 +20,5 @@ def spam():
 
 eggs = 42
 print(spam())
+
+#example of a function with a return value
